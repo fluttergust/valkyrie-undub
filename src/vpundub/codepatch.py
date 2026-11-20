@@ -8,8 +8,8 @@ clip while a stream is running, the sound driver's play function (0x80019834,
 mode 1 path at 0x80019970) stops every streaming track and returns -1 (busy);
 the caller retries and the new clip then plays. With the US voices only one
 clip per disc is long enough to stream, so this hardly mattered; ~157 JP clips
-per disc are, and the next clip cuts them off (e.g. disc 2 slot 1630, Brahms's
-opening line in the Hrist battle scene: 0.55 s of a 3.1 s line).
+per disc are, and the next clip cuts them off (e.g. disc 2 slot 1630 in the
+ch. 8 Hrist battle: 0.55 s of a 3.1 s line).
 
 The patch keeps the "busy" answer but skips stopping the stream, so the next
 clip waits for the stream to finish:
@@ -43,7 +43,7 @@ dropping their setup is safe:
 Busy is not retried everywhere, though: the battle engine (archive slot 1490,
 SLZ, decompressed to 0x8002f824, the same on both discs) stores the handle and
 moves its dialogue voice state machine on even when the driver returns -1, so
-a line requested while a stream plays was dropped (Hrist battle scene: slot 1496
+a line requested while a stream plays was dropped (ch. 8 Hrist battle: slot 1496
 item 2 after slot 1630). ``SLOT_PATCHES`` make both play sites (0x80052cfc,
 0x800530ac) leave the state unchanged on -1, so the request is repeated on the
 next frame and the line plays once the stream ends. To make room for the test

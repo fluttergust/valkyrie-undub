@@ -6,8 +6,8 @@ sector count * 2048 (so at most 15 sectors); bigger clips are streamed from the
 CD through a small ring buffer. While a stream plays the driver refuses every
 other upload, so a voice line that the US game loads during the clip waits
 until the stream ends (or, without the slot-1490 retry patch, is dropped). A JP
-clip can cross the limit where the shorter US clip did not (disc 2 slot 1630,
-Brahms's opening line in the Hrist battle scene: JP 3.1 s, 20 sectors; US 12 sectors).
+clip can cross the limit where the shorter US clip did not (disc 2 slot 1630 in
+the ch. 8 Hrist battle: JP 3.1 s, 20 sectors; US 12 sectors).
 
 ``fit_clip`` keeps such clips whole: the ADPCM is decoded, resampled down by
 whole semitones and re-encoded, and the region's pitch byte is lowered by the
