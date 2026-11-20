@@ -45,7 +45,7 @@ All are single-track MODE2/2352 images.
 - Sound driver (boot executable): a running voice stream is no longer stopped by the next upload; the next
   line waits.
 - Battle engine (slot 1490): a refused voice request is retried on the next frame.
-- Slot 1630 (Brahms's opening line in the Hrist fight scene): the JP clip is resampled by 5 semitones to 15 sectors so it is uploaded whole
+- Slot 1630 (Brahms's opening line in the Hrist battle scene): the JP clip is resampled by 5 semitones to 15 sectors so it is uploaded whole
   instead of streamed. Clips of 16 or more sectors are streamed by the engine.
 - Portrait seam (field engine, slot 2292, renderer `0x8004e334`, `asm/portrait_tile.s`): mirrored portraits
   drew sheet-column-0 tiles as 15 texels over 16 pixels.

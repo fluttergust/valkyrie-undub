@@ -39,7 +39,7 @@ This repository holds the patches, the source that generates them and no game da
   voice stream when the next line is requested, which cuts the end of such a line.
 - Sound driver patch: the next line waits until the stream has finished.
 - Battle engine patch: a voice request that is refused is tried again on the next frame instead of dropped.
-- One clip (disc slot 1630, Brahms's opening line in the Hrist fight scene) is resampled so it loads whole and can
+- One clip (disc slot 1630, Brahms's opening line in the Hrist battle scene) is resampled so it loads whole and can
   play alongside another line.
 
 ### 3. Scene timing follows the Japanese lines

@@ -296,7 +296,7 @@ _FIT_CACHE: dict[tuple[int, int, int], tuple[bytes, int]] = {}
 # treble (6 semitones: 15.6 kHz, 14: 9.8 kHz), and a streamed clip only causes
 # a problem where the game loads another voice line while it plays, so only
 # clips known to be overlapped are listed. 1630/1753: Brahms's opening line
-# in the Hrist fight scene (ch. 8),
+# in the Hrist battle scene (ch. 8),
 # line 1106 (slot 1496 item 2) loads during it; 3.1 s, 20 -> 15 sectors, -5
 # semitones. Same archive slot on both discs.
 FIT_CLIPS: frozenset[tuple[int, int]] = frozenset({(1630, 1753)})
