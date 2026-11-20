@@ -13,6 +13,7 @@ This repository holds the patches, the source that generates them and no game da
 - [Testing](#testing)
 - [Known limitations](#known-limitations)
 - [Credits](#credits)
+- [Legal](#legal)
 
 ## Features
 
@@ -300,6 +301,9 @@ In-game checks done on this build:
 - Vision-only lines were transcribed with faster-whisper and the Whisper large-v3 model, then corrected by hand.
 
 ## Legal
+
+The project's own code, scripts and documentation are under the [MIT licence](LICENSE). The licence does not
+cover the game or anything taken from it.
 
 *Valkyrie Profile* © 1999 tri-Ace / Enix (now Square Enix). This is an unofficial fan project. The repository
 contains no disc images. You need your own copies of all four discs. The patches hold the project's own
