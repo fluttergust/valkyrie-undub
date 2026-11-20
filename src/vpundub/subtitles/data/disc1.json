@@ -1,0 +1,1418 @@
+{
+ "disc": 1,
+ "visions": [
+  {
+   "id": 1,
+   "clips": [
+    {
+     "slot": 2412,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2413,
+     "start": 0.0,
+     "end": 6.69,
+     "pauses": [
+      0.97,
+      1.87,
+      2.5,
+      3.88,
+      5.34
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3721,
+      "member": 5,
+      "offset": 16690,
+      "words": [
+       48,
+       56
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2414,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2415,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2416,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2417,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2418,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2419,
+     "start": 0.04,
+     "end": 2.63,
+     "pauses": [
+      0.56,
+      1.23
+     ],
+     "text": "I-it's a monster!"
+    },
+    {
+     "slot": 2420,
+     "start": 0.04,
+     "end": 4.29,
+     "pauses": [
+      1.96
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3710,
+      "member": 4,
+      "offset": 18021,
+      "words": [
+       0,
+       12
+      ]
+     },
+     "speaker": "Roland"
+    },
+    {
+     "slot": 2421,
+     "start": 0.0,
+     "end": 0.56,
+     "ref": {
+      "disc": 1,
+      "slot": 3621,
+      "member": 5,
+      "offset": 14326,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Lawfer"
+    },
+    {
+     "slot": 2422,
+     "drop": "vocalisation"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "clips": [
+    {
+     "slot": 2486,
+     "start": 0.0,
+     "end": 3.42,
+     "pauses": [
+      1.42
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3726,
+      "member": 4,
+      "offset": 14165,
+      "words": [
+       0,
+       9
+      ]
+     },
+     "speaker": "Lawfer"
+    },
+    {
+     "slot": 2487,
+     "start": 0.0,
+     "end": 6.38,
+     "pauses": [
+      0.66,
+      2.33,
+      4.93
+     ],
+     "text": "Hey, let's all go together. There's no reason to go it alone! If we all go, then-"
+    },
+    {
+     "slot": 2488,
+     "start": 0.1,
+     "end": 4.04,
+     "pauses": [
+      2.77
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3621,
+      "member": 5,
+      "offset": 14084,
+      "words": [
+       0,
+       8
+      ]
+     },
+     "speaker": "Celia"
+    },
+    {
+     "slot": 2489,
+     "start": 0.01,
+     "end": 4.25,
+     "pauses": [
+      1.75,
+      3.65
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3621,
+      "member": 5,
+      "offset": 14240,
+      "words": [
+       0,
+       10
+      ]
+     },
+     "speaker": "Kashell"
+    },
+    {
+     "slot": 2490,
+     "drop": "no speech"
+    },
+    {
+     "slot": 2491,
+     "start": 0.0,
+     "end": 2.48,
+     "pauses": [
+      1.1
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3621,
+      "member": 5,
+      "offset": 14974,
+      "words": [
+       9,
+       14
+      ]
+     },
+     "speaker": "Lawfer"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "clips": [
+    {
+     "slot": 2501,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2502,
+     "start": 0.0,
+     "end": 3.69,
+     "pauses": [
+      1.34
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3728,
+      "member": 3,
+      "offset": 15061,
+      "words": [
+       0,
+       6
+      ]
+     },
+     "speaker": "Belenus"
+    },
+    {
+     "slot": 2503,
+     "start": 0.0,
+     "end": 1.02,
+     "text": "Destiny?"
+    },
+    {
+     "slot": 2504,
+     "start": 0.0,
+     "end": 2.69,
+     "pauses": [
+      0.73
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3728,
+      "member": 3,
+      "offset": 14153,
+      "words": [
+       4,
+       10
+      ]
+     },
+     "speaker": "Asaka"
+    },
+    {
+     "slot": 2505,
+     "drop": "no speech"
+    },
+    {
+     "slot": 2506,
+     "start": 0.03,
+     "end": 1.56,
+     "text": "Lord Belenus!"
+    },
+    {
+     "slot": 2507,
+     "start": 0.02,
+     "end": 3.22,
+     "pauses": [
+      1.28
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3733,
+      "member": 2,
+      "offset": 13662,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Belenus"
+    },
+    {
+     "slot": 2508,
+     "start": 0.0,
+     "end": 2.8,
+     "pauses": [
+      1.68
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3733,
+      "member": 2,
+      "offset": 14159,
+      "words": [
+       0,
+       6
+      ]
+     },
+     "speaker": "Belenus"
+    },
+    {
+     "slot": 2509,
+     "start": 0.06,
+     "end": 2.26,
+     "text": "So you have nothing to say to me, huh?"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "clips": [
+    {
+     "slot": 2514,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2515,
+     "start": 0.04,
+     "end": 3.89,
+     "pauses": [
+      1.25
+     ],
+     "text": "Anything I say is only going to make her feel worse."
+    },
+    {
+     "slot": 2514,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2516,
+     "start": 0.07,
+     "end": 3.7,
+     "pauses": [
+      0.92,
+      2.39
+     ],
+     "text": "No, that sound! I can't stand it!"
+    },
+    {
+     "slot": 2517,
+     "start": 0.03,
+     "end": 4.09,
+     "pauses": [
+      1.59
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3707,
+      "member": 5,
+      "offset": 17325,
+      "words": [
+       0,
+       4
+      ]
+     },
+     "speaker": "Millia"
+    },
+    {
+     "slot": 2518,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2519,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2520,
+     "start": 0.01,
+     "end": 6.45,
+     "pauses": [
+      1.55,
+      3.57
+     ],
+     "text": "I'll wait for you. I'll come here and think of this as our special place."
+    },
+    {
+     "slot": 2521,
+     "start": 0.05,
+     "end": 3.92,
+     "pauses": [
+      1.43,
+      2.66
+     ],
+     "text": "I won't die. I'll come back to you."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "clips": [
+    {
+     "slot": 2535,
+     "start": 0.0,
+     "end": 1.31,
+     "text": "Kashell, look out!"
+    },
+    {
+     "slot": 2536,
+     "drop": "no speech"
+    },
+    {
+     "slot": 2537,
+     "start": 0.02,
+     "end": 5.29,
+     "pauses": [
+      1.31,
+      3.35
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3787,
+      "member": 5,
+      "offset": 16377,
+      "words": [
+       0,
+       8
+      ]
+     },
+     "speaker": "Celia"
+    },
+    {
+     "slot": 2538,
+     "start": 0.09,
+     "end": 12.75,
+     "pauses": [
+      2.58,
+      4.42,
+      7.12,
+      9.3,
+      10.93
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3652,
+      "member": 10,
+      "offset": 16257,
+      "words": [
+       0,
+       24
+      ]
+     },
+     "speaker": "Celia"
+    },
+    {
+     "slot": 2539,
+     "start": 0.03,
+     "end": 3.81,
+     "pauses": [
+      1.01
+     ],
+     "text": "But that doesn't mean we should just throw our lives away."
+    },
+    {
+     "slot": 2540,
+     "start": 0.0,
+     "end": 2.33,
+     "ref": {
+      "disc": 1,
+      "slot": 3787,
+      "member": 5,
+      "offset": 17123,
+      "words": [
+       2,
+       9
+      ]
+     },
+     "speaker": "Kashell"
+    },
+    {
+     "slot": 2541,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2542,
+     "start": 0.66,
+     "end": 7.47,
+     "pauses": [
+      1.93,
+      3.25,
+      5.13,
+      6.11
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3665,
+      "member": 2,
+      "offset": 13200,
+      "words": [
+       0,
+       14
+      ]
+     },
+     "speaker": "Celia"
+    },
+    {
+     "slot": 2543,
+     "start": 0.01,
+     "end": 2.61,
+     "pauses": [
+      1.45
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3787,
+      "member": 5,
+      "offset": 16777,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Kashell"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "clips": [
+    {
+     "slot": 2555,
+     "start": 0.01,
+     "end": 2.63,
+     "ref": {
+      "disc": 1,
+      "slot": 3706,
+      "member": 4,
+      "offset": 23986,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Janus"
+    },
+    {
+     "slot": 2556,
+     "start": 0.01,
+     "end": 9.12,
+     "pauses": [
+      4.19
+     ],
+     "text": "I'm so proud of you, my son. You have been knighted, made part of the king's inner circle."
+    },
+    {
+     "slot": 2557,
+     "start": 0.04,
+     "end": 1.35,
+     "text": "I did not run from my duty!"
+    },
+    {
+     "slot": 2558,
+     "start": 0.13,
+     "end": 7.51,
+     "pauses": [
+      1.32,
+      4.97
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3700,
+      "member": 8,
+      "offset": 14705,
+      "words": [
+       13,
+       24
+      ]
+     },
+     "speaker": "Janus"
+    },
+    {
+     "slot": 2559,
+     "drop": "vocalisation"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "clips": [
+    {
+     "slot": 2574,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2575,
+     "start": 0.01,
+     "end": 2.8,
+     "pauses": [
+      1.0
+     ],
+     "text": "Minayo, please grant me strength."
+    },
+    {
+     "slot": 2576,
+     "start": 0.01,
+     "end": 5.96,
+     "pauses": [
+      0.8,
+      1.95,
+      3.26
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 4096,
+      "member": 4,
+      "offset": 15012,
+      "words": [
+       1,
+       12
+      ]
+     },
+     "speaker": "Nanami"
+    },
+    {
+     "slot": 2577,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2578,
+     "start": 0.0,
+     "end": 0.76,
+     "text": "Minayo?"
+    },
+    {
+     "slot": 2579,
+     "start": 0.01,
+     "end": 0.96,
+     "text": "Minayo?"
+    },
+    {
+     "slot": 2580,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2581,
+     "start": 0.02,
+     "end": 3.46,
+     "pauses": [
+      2.15
+     ],
+     "text": "What can one do when one loses what matters most?"
+    },
+    {
+     "slot": 2582,
+     "start": 0.05,
+     "end": 2.01,
+     "pauses": [
+      0.66
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 4096,
+      "member": 4,
+      "offset": 15213,
+      "words": [
+       1,
+       7
+      ]
+     },
+     "speaker": "Nanami"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "clips": [
+    {
+     "slot": 2519,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2590,
+     "start": 0.0,
+     "end": 1.33,
+     "ref": {
+      "disc": 1,
+      "slot": 3681,
+      "member": 4,
+      "offset": 14964,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Yumei"
+    },
+    {
+     "slot": 2591,
+     "start": 0.0,
+     "end": 4.17,
+     "pauses": [
+      0.84,
+      3.02
+     ],
+     "text": "Yes. But this isn't a normal one. It's special-"
+    },
+    {
+     "slot": 2592,
+     "start": 0.04,
+     "end": 1.95,
+     "pauses": [
+      0.74
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3672,
+      "member": 6,
+      "offset": 12831,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Fuyuki"
+    },
+    {
+     "slot": 2593,
+     "start": 0.0,
+     "end": 1.95,
+     "pauses": [
+      0.91
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3672,
+      "member": 6,
+      "offset": 12868,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Yumei"
+    },
+    {
+     "slot": 2594,
+     "start": 0.06,
+     "end": 4.44,
+     "pauses": [
+      0.89,
+      2.68
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3671,
+      "member": 6,
+      "offset": 19072,
+      "words": [
+       41,
+       53
+      ]
+     },
+     "speaker": "Fuyuki"
+    },
+    {
+     "slot": 2595,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2596,
+     "start": 0.0,
+     "end": 3.21,
+     "pauses": [
+      1.52
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3671,
+      "member": 6,
+      "offset": 18374,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Yumei"
+    },
+    {
+     "slot": 2597,
+     "start": 0.08,
+     "end": 3.88,
+     "pauses": [
+      1.23
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3671,
+      "member": 6,
+      "offset": 19693,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Fuyuki"
+    },
+    {
+     "slot": 2598,
+     "start": 0.14,
+     "end": 4.83,
+     "pauses": [
+      1.67,
+      3.71
+     ],
+     "text": "Goodbye... I'm sorry I lied to you."
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "clips": [
+    {
+     "slot": 2613,
+     "start": 0.0,
+     "end": 4.51,
+     "pauses": [
+      1.28,
+      3.16
+     ],
+     "text": "Grey? You? It can't be true!"
+    },
+    {
+     "slot": 2614,
+     "start": 0.0,
+     "end": 2.76,
+     "pauses": [
+      0.95
+     ],
+     "text": "Lemia! Hang on! Lemia!"
+    },
+    {
+     "slot": 2615,
+     "start": 0.01,
+     "end": 2.63,
+     "pauses": [
+      1.19
+     ],
+     "text": "Grey, you!"
+    },
+    {
+     "slot": 2616,
+     "start": 0.01,
+     "end": 1.01,
+     "text": "Everyone, wait!"
+    },
+    {
+     "slot": 2617,
+     "start": 0.0,
+     "end": 1.24,
+     "text": "It wasn't you, Grey, was it?"
+    },
+    {
+     "slot": 2618,
+     "start": 0.04,
+     "end": 1.15,
+     "text": "It can't be... You're..."
+    },
+    {
+     "slot": 2620,
+     "start": 0.01,
+     "end": 1.57,
+     "pauses": [
+      0.93
+     ],
+     "text": "It was I who did it."
+    },
+    {
+     "slot": 2619,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2621,
+     "start": 0.0,
+     "end": 2.68,
+     "pauses": [
+      1.66
+     ],
+     "text": "When we find out where he is, we'll meet up again."
+    },
+    {
+     "slot": 2622,
+     "start": 0.03,
+     "end": 2.71,
+     "pauses": [
+      1.38
+     ],
+     "text": "The signal to meet will be as we planned."
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "clips": [
+    {
+     "slot": 2634,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2635,
+     "start": 0.05,
+     "end": 5.55,
+     "text": "And what will your soul project into this demon cave?"
+    },
+    {
+     "slot": 2636,
+     "start": 0.01,
+     "end": 1.34,
+     "ref": {
+      "disc": 1,
+      "slot": 4095,
+      "member": 4,
+      "offset": 17800,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Jun"
+    },
+    {
+     "slot": 2574,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2637,
+     "start": 0.02,
+     "end": 1.0,
+     "text": "Please!"
+    },
+    {
+     "slot": 2638,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2639,
+     "start": 0.04,
+     "end": 3.04,
+     "pauses": [
+      1.12
+     ],
+     "text": "Please, Lord, do something!"
+    },
+    {
+     "slot": 2640,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2641,
+     "start": 0.02,
+     "end": 0.57,
+     "text": "My brother..."
+    },
+    {
+     "slot": 2642,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2643,
+     "start": 0.02,
+     "end": 1.62,
+     "text": "Please protect my brother!"
+    },
+    {
+     "slot": 2644,
+     "drop": "no speech"
+    },
+    {
+     "slot": 2645,
+     "start": 0.13,
+     "end": 6.67,
+     "pauses": [
+      2.58
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 4095,
+      "member": 4,
+      "offset": 17071,
+      "words": [
+       1,
+       12
+      ]
+     },
+     "speaker": "Ogre"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "clips": [
+    {
+     "slot": 2654,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "clips": [
+    {
+     "slot": 2691,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2696,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "clips": [
+    {
+     "slot": 2722,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2723,
+     "start": 0.01,
+     "end": 4.01,
+     "pauses": [
+      1.51
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3639,
+      "member": 5,
+      "offset": 20676,
+      "words": [
+       0,
+       9
+      ]
+     },
+     "speaker": "Lucian"
+    },
+    {
+     "slot": 2724,
+     "start": 0.0,
+     "end": 3.63,
+     "pauses": [
+      1.91
+     ],
+     "text": "Lezard, why are you..."
+    },
+    {
+     "slot": 2722,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2725,
+     "start": 0.0,
+     "end": 3.41,
+     "ref": {
+      "disc": 1,
+      "slot": 3902,
+      "member": 4,
+      "offset": 15746,
+      "words": [
+       0,
+       14
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2726,
+     "start": 0.01,
+     "end": 3.83,
+     "pauses": [
+      1.21
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3897,
+      "member": 6,
+      "offset": 19015,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Lorenta's Husband"
+    },
+    {
+     "slot": 2722,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2727,
+     "start": 0.0,
+     "end": 3.74,
+     "pauses": [
+      1.4
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3900,
+      "member": 6,
+      "offset": 15900,
+      "words": [
+       0,
+       9
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2728,
+     "start": 0.02,
+     "end": 3.68,
+     "pauses": [
+      0.78,
+      1.75
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3897,
+      "member": 6,
+      "offset": 18353,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Lorenta"
+    },
+    {
+     "slot": 2729,
+     "start": 0.02,
+     "end": 5.01,
+     "pauses": [
+      1.46,
+      2.48,
+      3.8
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3897,
+      "member": 6,
+      "offset": 18070,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Lorenta"
+    },
+    {
+     "slot": 2730,
+     "start": 0.06,
+     "end": 1.95,
+     "ref": {
+      "disc": 1,
+      "slot": 3902,
+      "member": 4,
+      "offset": 15840,
+      "words": [
+       0,
+       3
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2731,
+     "start": 0.05,
+     "end": 4.29,
+     "pauses": [
+      1.3,
+      2.67
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3902,
+      "member": 4,
+      "offset": 15942,
+      "words": [
+       0,
+       10
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2732,
+     "start": 0.02,
+     "end": 5.97,
+     "pauses": [
+      1.64,
+      3.53
+     ],
+     "text": "Lezard, think this through, please!"
+    },
+    {
+     "slot": 2733,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "clips": [
+    {
+     "slot": 2777,
+     "start": 0.09,
+     "end": 5.89,
+     "pauses": [
+      1.35,
+      2.64
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3690,
+      "member": 2,
+      "offset": 14317,
+      "words": [
+       3,
+       18
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2778,
+     "start": 0.04,
+     "end": 10.42,
+     "pauses": [
+      1.48,
+      3.93,
+      5.23,
+      7.91
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3957,
+      "member": 6,
+      "offset": 12663,
+      "words": [
+       0,
+       21
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2779,
+     "start": 0.07,
+     "end": 7.52,
+     "pauses": [
+      0.47,
+      3.83
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3898,
+      "member": 4,
+      "offset": 13263,
+      "words": [
+       1,
+       24
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2780,
+     "start": 0.11,
+     "end": 3.29,
+     "pauses": [
+      1.45
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3901,
+      "member": 6,
+      "offset": 15705,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2781,
+     "start": 0.05,
+     "end": 3.42,
+     "pauses": [
+      1.4
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3692,
+      "member": 3,
+      "offset": 13402,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2782,
+     "start": 0.0,
+     "end": 5.4,
+     "pauses": [
+      2.93
+     ],
+     "text": "You know how I am. I don't like to mess around."
+    },
+    {
+     "slot": 2783,
+     "start": 0.0,
+     "end": 3.76,
+     "pauses": [
+      1.68
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3692,
+      "member": 3,
+      "offset": 13624,
+      "words": [
+       0,
+       6
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2784,
+     "start": 0.11,
+     "end": 1.03,
+     "text": "What?"
+    },
+    {
+     "slot": 2785,
+     "start": 0.01,
+     "end": 8.12,
+     "pauses": [
+      1.19,
+      5.39
+     ],
+     "ref": {
+      "disc": 1,
+      "slot": 3692,
+      "member": 3,
+      "offset": 14049,
+      "words": [
+       0,
+       16
+      ]
+     },
+     "speaker": "Lezard"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "clips": [
+    {
+     "slot": 2819,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2821,
+     "start": 0.0,
+     "end": 3.44,
+     "ref": {
+      "disc": 1,
+      "slot": 3681,
+      "member": 4,
+      "offset": 14181,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Yumei"
+    },
+    {
+     "slot": 2819,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "clips": [
+    {
+     "slot": 2840,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2841,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "clips": [
+    {
+     "slot": 2840,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2880,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2884,
+     "drop": "hallucination"
+    }
+   ]
+  }
+ ]
+}

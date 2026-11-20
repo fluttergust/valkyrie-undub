@@ -1,0 +1,1231 @@
+{
+ "disc": 2,
+ "visions": [
+  {
+   "id": 1,
+   "clips": [
+    {
+     "slot": 2412,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2416,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2417,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2418,
+     "drop": "vocalisation"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "clips": [
+    {
+     "slot": 2490,
+     "drop": "no speech"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "clips": [
+    {
+     "slot": 2501,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "clips": [
+    {
+     "slot": 2514,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2514,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2518,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2519,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "clips": [
+    {
+     "slot": 2536,
+     "drop": "no speech"
+    },
+    {
+     "slot": 2541,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "clips": [
+    {
+     "slot": 2574,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2577,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2580,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "clips": [
+    {
+     "slot": 2519,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2595,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "clips": [
+    {
+     "slot": 2619,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "clips": [
+    {
+     "slot": 2634,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2574,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2644,
+     "drop": "no speech"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "clips": [
+    {
+     "slot": 2654,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2655,
+     "start": 0.0,
+     "end": 2.42,
+     "pauses": [
+      1.17
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3616,
+      "member": 4,
+      "offset": 11975,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Mother"
+    },
+    {
+     "slot": 2656,
+     "drop": "vocalisation"
+    },
+    {
+     "slot": 2657,
+     "start": 0.07,
+     "end": 6.57,
+     "pauses": [
+      1.08,
+      3.24
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3664,
+      "member": 2,
+      "offset": 16171,
+      "words": [
+       4,
+       15
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2658,
+     "start": 0.0,
+     "end": 2.23,
+     "ref": {
+      "disc": 2,
+      "slot": 3663,
+      "member": 2,
+      "offset": 14181,
+      "words": [
+       0,
+       6
+      ]
+     },
+     "speaker": "Geena"
+    },
+    {
+     "slot": 2659,
+     "start": 0.0,
+     "end": 5.55,
+     "pauses": [
+      2.42
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3663,
+      "member": 2,
+      "offset": 14255,
+      "words": [
+       0,
+       13
+      ]
+     },
+     "speaker": "Geena"
+    },
+    {
+     "slot": 2660,
+     "start": 0.0,
+     "end": 3.0,
+     "pauses": [
+      1.19
+     ],
+     "text": "Who is it? Who's calling me?"
+    },
+    {
+     "slot": 2661,
+     "start": 0.15,
+     "end": 2.51,
+     "pauses": [
+      1.46
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3664,
+      "member": 2,
+      "offset": 18709,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2662,
+     "start": 0.09,
+     "end": 3.97,
+     "pauses": [
+      1.05,
+      2.24
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3664,
+      "member": 2,
+      "offset": 18803,
+      "words": [
+       1,
+       7
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2663,
+     "drop": "vocalisation"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "clips": [
+    {
+     "slot": 2690,
+     "start": 0.0,
+     "end": 5.77,
+     "pauses": [
+      1.04,
+      2.71,
+      4.42
+     ],
+     "text": "Ah, oh, perfect. Um, Grey, do you have a minute?"
+    },
+    {
+     "slot": 2691,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2692,
+     "start": 0.0,
+     "end": 0.96,
+     "text": "Is it any good?"
+    },
+    {
+     "slot": 2693,
+     "start": 0.0,
+     "end": 1.82,
+     "text": "I just wanted to try out the recipe."
+    },
+    {
+     "slot": 2694,
+     "start": 0.01,
+     "end": 0.95,
+     "text": "Am I your guinea pig?"
+    },
+    {
+     "slot": 2696,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2695,
+     "start": 0.0,
+     "end": 4.82,
+     "pauses": [
+      0.45,
+      1.86,
+      2.89,
+      3.92
+     ],
+     "text": "N-no, no, you're... I, I mean..."
+    },
+    {
+     "slot": 2697,
+     "start": 0.03,
+     "end": 1.95,
+     "text": "I can't get over how thick-headed this guy is."
+    },
+    {
+     "slot": 2698,
+     "start": 0.01,
+     "end": 0.93,
+     "text": "It is quite fine."
+    },
+    {
+     "slot": 2699,
+     "start": 0.04,
+     "end": 0.76,
+     "text": "Really?"
+    },
+    {
+     "slot": 2700,
+     "start": 0.01,
+     "end": 0.4,
+     "text": "Indeed."
+    },
+    {
+     "slot": 2701,
+     "start": 0.03,
+     "end": 8.34,
+     "pauses": [
+      2.21,
+      3.51,
+      4.96
+     ],
+     "text": "Then, well, do you think, do you think I'll make a good bride?"
+    },
+    {
+     "slot": 2702,
+     "start": 0.03,
+     "end": 4.38,
+     "pauses": [
+      2.68
+     ],
+     "text": "Oh, what am I saying? I..."
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "clips": [
+    {
+     "slot": 2722,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2723,
+     "start": 0.01,
+     "end": 4.01,
+     "pauses": [
+      1.51
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3639,
+      "member": 5,
+      "offset": 20676,
+      "words": [
+       0,
+       9
+      ]
+     },
+     "speaker": "Lucian"
+    },
+    {
+     "slot": 2724,
+     "start": 0.0,
+     "end": 3.63,
+     "pauses": [
+      1.91
+     ],
+     "text": "Lezard, why are you..."
+    },
+    {
+     "slot": 2722,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2725,
+     "start": 0.0,
+     "end": 3.41,
+     "ref": {
+      "disc": 2,
+      "slot": 3902,
+      "member": 4,
+      "offset": 15746,
+      "words": [
+       0,
+       14
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2726,
+     "start": 0.01,
+     "end": 3.83,
+     "pauses": [
+      1.21
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3897,
+      "member": 6,
+      "offset": 19015,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Lorenta's Husband"
+    },
+    {
+     "slot": 2722,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2727,
+     "start": 0.0,
+     "end": 3.74,
+     "pauses": [
+      1.4
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3900,
+      "member": 6,
+      "offset": 15900,
+      "words": [
+       0,
+       9
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2728,
+     "start": 0.02,
+     "end": 3.68,
+     "pauses": [
+      0.78,
+      1.75
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3897,
+      "member": 6,
+      "offset": 18353,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Lorenta"
+    },
+    {
+     "slot": 2729,
+     "start": 0.02,
+     "end": 5.01,
+     "pauses": [
+      1.46,
+      2.48,
+      3.8
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3897,
+      "member": 6,
+      "offset": 18070,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Lorenta"
+    },
+    {
+     "slot": 2730,
+     "start": 0.06,
+     "end": 1.95,
+     "ref": {
+      "disc": 2,
+      "slot": 3902,
+      "member": 4,
+      "offset": 15840,
+      "words": [
+       0,
+       3
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2731,
+     "start": 0.05,
+     "end": 4.29,
+     "pauses": [
+      1.3,
+      2.67
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3902,
+      "member": 4,
+      "offset": 15942,
+      "words": [
+       0,
+       10
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2732,
+     "start": 0.02,
+     "end": 5.97,
+     "pauses": [
+      1.64,
+      3.53
+     ],
+     "text": "Lezard, think this through, please!"
+    },
+    {
+     "slot": 2733,
+     "drop": "hallucination"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "clips": [
+    {
+     "slot": 2777,
+     "start": 0.09,
+     "end": 5.89,
+     "pauses": [
+      1.35,
+      2.64
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3690,
+      "member": 2,
+      "offset": 14317,
+      "words": [
+       3,
+       18
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2778,
+     "start": 0.04,
+     "end": 10.42,
+     "pauses": [
+      1.48,
+      3.93,
+      5.23,
+      7.91
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3957,
+      "member": 6,
+      "offset": 12663,
+      "words": [
+       0,
+       21
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2779,
+     "start": 0.07,
+     "end": 7.52,
+     "pauses": [
+      0.47,
+      3.83
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3898,
+      "member": 4,
+      "offset": 13263,
+      "words": [
+       1,
+       24
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2780,
+     "start": 0.11,
+     "end": 3.29,
+     "pauses": [
+      1.45
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3901,
+      "member": 6,
+      "offset": 15705,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2781,
+     "start": 0.05,
+     "end": 3.42,
+     "pauses": [
+      1.4
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3692,
+      "member": 3,
+      "offset": 13402,
+      "words": [
+       0,
+       7
+      ]
+     },
+     "speaker": "Mystina"
+    },
+    {
+     "slot": 2782,
+     "start": 0.0,
+     "end": 5.4,
+     "pauses": [
+      2.93
+     ],
+     "text": "You know how I am. I don't like to mess around."
+    },
+    {
+     "slot": 2783,
+     "start": 0.0,
+     "end": 3.76,
+     "pauses": [
+      1.68
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3692,
+      "member": 3,
+      "offset": 13624,
+      "words": [
+       0,
+       6
+      ]
+     },
+     "speaker": "Lezard"
+    },
+    {
+     "slot": 2784,
+     "start": 0.11,
+     "end": 1.03,
+     "text": "What?"
+    },
+    {
+     "slot": 2785,
+     "start": 0.01,
+     "end": 8.12,
+     "pauses": [
+      1.19,
+      5.39
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3692,
+      "member": 3,
+      "offset": 14049,
+      "words": [
+       0,
+       16
+      ]
+     },
+     "speaker": "Lezard"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "clips": [
+    {
+     "slot": 2819,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2820,
+     "start": 0.03,
+     "end": 3.46,
+     "pauses": [
+      1.3
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3684,
+      "member": 4,
+      "offset": 14907,
+      "words": [
+       2,
+       7
+      ]
+     },
+     "speaker": "Shiho"
+    },
+    {
+     "slot": 2821,
+     "start": 0.17,
+     "end": 9.57,
+     "ref": {
+      "disc": 2,
+      "slot": 3681,
+      "member": 4,
+      "offset": 14181,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Yumei"
+    },
+    {
+     "slot": 2822,
+     "start": 0.03,
+     "end": 3.79,
+     "pauses": [
+      1.27
+     ],
+     "text": "Why was I even born?"
+    },
+    {
+     "slot": 2823,
+     "start": 0.02,
+     "end": 1.36,
+     "text": "Where's daddy?"
+    },
+    {
+     "slot": 2819,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2824,
+     "start": 0.03,
+     "end": 2.3,
+     "pauses": [
+      0.93
+     ],
+     "text": "I can't."
+    },
+    {
+     "slot": 2825,
+     "start": 0.01,
+     "end": 1.56,
+     "ref": {
+      "disc": 2,
+      "slot": 3667,
+      "member": 8,
+      "offset": 14184,
+      "words": [
+       16,
+       22
+      ]
+     },
+     "speaker": "Wife"
+    },
+    {
+     "slot": 2826,
+     "start": 0.0,
+     "end": 1.38,
+     "ref": {
+      "disc": 2,
+      "slot": 3667,
+      "member": 8,
+      "offset": 14360,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Wife"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "clips": [
+    {
+     "slot": 2834,
+     "start": 0.02,
+     "end": 2.94,
+     "pauses": [
+      1.25
+     ],
+     "text": "Please, I beg of you, sir, please keep this a secret."
+    },
+    {
+     "slot": 2835,
+     "start": 0.03,
+     "end": 1.02,
+     "text": "No!"
+    },
+    {
+     "slot": 2836,
+     "start": 0.01,
+     "end": 4.94,
+     "pauses": [
+      1.79
+     ],
+     "text": "Hee hee hee! I see, I see! That's how it is!"
+    },
+    {
+     "slot": 2837,
+     "start": 0.01,
+     "end": 2.03,
+     "text": "So, how did you scam this one, my dear?"
+    },
+    {
+     "slot": 2838,
+     "start": 0.1,
+     "end": 7.4,
+     "pauses": [
+      1.79,
+      3.67,
+      5.79
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3701,
+      "member": 2,
+      "offset": 15297,
+      "words": [
+       0,
+       22
+      ]
+     },
+     "speaker": "Fahn"
+    },
+    {
+     "slot": 2839,
+     "start": 0.03,
+     "end": 5.91,
+     "pauses": [
+      0.81,
+      2.62
+     ],
+     "text": "Leticia, back me up. If this goes any further, the order of knights will be..."
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "clips": [
+    {
+     "slot": 2840,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2841,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2842,
+     "start": 1.07,
+     "end": 3.6,
+     "ref": {
+      "disc": 2,
+      "slot": 3721,
+      "member": 5,
+      "offset": 17129,
+      "words": [
+       2,
+       10
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2843,
+     "start": 0.03,
+     "end": 4.15,
+     "pauses": [
+      1.32
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3721,
+      "member": 5,
+      "offset": 17129,
+      "words": [
+       10,
+       23
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2844,
+     "start": 0.0,
+     "end": 4.93,
+     "pauses": [
+      1.71
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3721,
+      "member": 5,
+      "offset": 17129,
+      "words": [
+       23,
+       35
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2845,
+     "start": 0.02,
+     "end": 0.76,
+     "ref": {
+      "disc": 2,
+      "slot": 3621,
+      "member": 5,
+      "offset": 14326,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Lawfer"
+    },
+    {
+     "slot": 2846,
+     "start": 0.0,
+     "end": 2.83,
+     "pauses": [
+      1.37
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3721,
+      "member": 5,
+      "offset": 17469,
+      "words": [
+       0,
+       3
+      ]
+     },
+     "speaker": "Suo"
+    },
+    {
+     "slot": 2847,
+     "start": 0.01,
+     "end": 4.34,
+     "pauses": [
+      1.25,
+      3.23
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3721,
+      "member": 5,
+      "offset": 17953,
+      "words": [
+       4,
+       10
+      ]
+     },
+     "speaker": "Samurai"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "clips": [
+    {
+     "slot": 2878,
+     "start": 0.01,
+     "end": 7.36,
+     "pauses": [
+      2.0,
+      3.77,
+      5.28
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3642,
+      "member": 8,
+      "offset": 14448,
+      "words": [
+       7,
+       20
+      ]
+     },
+     "speaker": "Lucian"
+    },
+    {
+     "slot": 2840,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2879,
+     "start": 0.04,
+     "end": 4.22,
+     "pauses": [
+      1.54,
+      2.3
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3650,
+      "member": 3,
+      "offset": 14016,
+      "words": [
+       0,
+       8
+      ]
+     },
+     "speaker": "Lucian"
+    },
+    {
+     "slot": 2880,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2881,
+     "start": 0.08,
+     "end": 2.81,
+     "ref": {
+      "disc": 2,
+      "slot": 3650,
+      "member": 3,
+      "offset": 13715,
+      "words": [
+       7,
+       12
+      ]
+     },
+     "speaker": "Claire"
+    },
+    {
+     "slot": 2882,
+     "start": 0.01,
+     "end": 2.82,
+     "text": "Mommy!"
+    },
+    {
+     "slot": 2883,
+     "start": 0.02,
+     "end": 3.19,
+     "ref": {
+      "disc": 2,
+      "slot": 3664,
+      "member": 2,
+      "offset": 16102,
+      "words": [
+       0,
+       2
+      ]
+     },
+     "speaker": "Badrach"
+    },
+    {
+     "slot": 2884,
+     "drop": "hallucination"
+    },
+    {
+     "slot": 2885,
+     "start": 0.04,
+     "end": 1.43,
+     "ref": {
+      "disc": 2,
+      "slot": 3650,
+      "member": 3,
+      "offset": 13798,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Claire"
+    },
+    {
+     "slot": 2886,
+     "start": 0.02,
+     "end": 0.84,
+     "text": "Lucian!"
+    },
+    {
+     "slot": 2887,
+     "start": 0.12,
+     "end": 4.44,
+     "pauses": [
+      1.23,
+      1.89
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3650,
+      "member": 3,
+      "offset": 14555,
+      "words": [
+       0,
+       5
+      ]
+     },
+     "speaker": "Claire"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "clips": [
+    {
+     "slot": 2944,
+     "start": 0.01,
+     "end": 3.31,
+     "pauses": [
+      1.64
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3639,
+      "member": 5,
+      "offset": 19721,
+      "words": [
+       0,
+       4
+      ]
+     },
+     "speaker": "Valkyrie"
+    },
+    {
+     "slot": 2945,
+     "start": 0.01,
+     "end": 3.15,
+     "pauses": [
+      1.87
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3639,
+      "member": 5,
+      "offset": 19778,
+      "words": [
+       0,
+       16
+      ]
+     },
+     "speaker": "Lucian"
+    },
+    {
+     "slot": 2946,
+     "start": 0.01,
+     "end": 3.04,
+     "pauses": [
+      0.73
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3639,
+      "member": 5,
+      "offset": 19778,
+      "words": [
+       17,
+       25
+      ]
+     },
+     "speaker": "Lucian"
+    },
+    {
+     "slot": 2949,
+     "start": 0.02,
+     "end": 3.06,
+     "pauses": [
+      2.2
+     ],
+     "ref": {
+      "disc": 2,
+      "slot": 3625,
+      "member": 5,
+      "offset": 15323,
+      "words": [
+       16,
+       24
+      ]
+     },
+     "speaker": "Lucian"
+    }
+   ]
+  }
+ ]
+}
