@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Apply the release patches (Linux/macOS). Needs xdelta3 and about 4.5 GB of free space.
 #
+# The three .xdelta files come from the GitHub release: put them in patches/ or set PATCHES=<folder>.
+#
 # usage: tools/apply_patches.sh <US disc 1.bin> <JP disc 1.bin> <US disc 2.bin> <JP disc 2.bin> [out dir]
 #
 # Writes into the out dir (default: out/):
@@ -8,10 +10,13 @@
 #   Valkyrie Profile (USA) (Single Disc) [Undub].bin/.cue                           (patch 2)
 set -euo pipefail
 if [ $# -lt 4 ] || [ $# -gt 5 ]; then
-  sed -n 2,8p "$0" >&2
+  sed -n 2,10p "$0" >&2
   exit 2
 fi
-p="$(cd "$(dirname "$0")/.." && pwd)/patches"
+p=${PATCHES:-"$(cd "$(dirname "$0")/.." && pwd)/patches"}
+for f in vpundub_disc1.xdelta vpundub_disc2.xdelta vpsingle_undub.xdelta; do
+  [ -f "$p/$f" ] || { echo "missing $p/$f: download it from the GitHub release" >&2; exit 1; }
+done
 us1=$1 jp1=$2 us2=$3 jp2=$4 out=${5:-out}
 mkdir -p "$out"
 tmp="$out/source.tmp.bin"

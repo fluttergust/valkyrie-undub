@@ -4,7 +4,8 @@ English text with the original Japanese voices for the US PlayStation release of
 (SLUS-01156 / SLUS-01179), plus an optional conversion of the two discs into **one disc** with no disc swap.
 
 The release is a set of [xdelta3](https://github.com/jmacd/xdelta) patches applied to your own disc images.
-This repository holds the patches, the source that generates them and no game data.
+The patches are attached to the GitHub release. This repository holds the source that generates them and no
+game data.
 
 - [Features](#features)
 - [Requirements](#requirements)
@@ -114,7 +115,8 @@ The Japanese discs are needed because the patches take the voices from them and 
 
 ## Applying the patches
 
-Patches are in [`patches/`](patches) (checksums in `patches/SHA1SUMS`).
+Download the three `.xdelta` files from the [Releases page](../../releases). Their checksums are in
+[`patches/SHA1SUMS`](patches/SHA1SUMS).
 
 | Patch | Source | Result |
 |---|---|---|
@@ -188,6 +190,7 @@ The `source*.bin` files can be deleted afterwards.
 - xdelta3 checks the data as it patches. It stops with an error if an image is wrong or joined in the wrong order.
 - One command for all steps on Linux/macOS, including the `.cue` files:
   `tools/apply_patches.sh <US disc 1.bin> <JP disc 1.bin> <US disc 2.bin> <JP disc 2.bin> [out dir]`
+  (put the downloaded patches in `patches/` first, or set `PATCHES=<folder>`)
 - Single disc with per-game memory cards (e.g. DuckStation): point the emulator at the card you used before,
   or copy the saves over.
 
@@ -227,7 +230,8 @@ A different xdelta3 version can write patches with other bytes. They still apply
 
    It writes the three images and the three patches to `build/out/` and ends with
    `OK: the generated patches match patches/SHA1SUMS`. The build is deterministic.
-   After a source change, `tools/make_patches.sh --update` copies the new patches into `patches/`.
+   After a source change, `tools/make_patches.sh --update` copies the new patches into `patches/` (git-ignored,
+   for upload to a release) and rewrites `patches/SHA1SUMS`.
 
 The script runs these steps, which also work one by one:
 
@@ -259,7 +263,7 @@ tools/make_xdelta.sh "build/out/Valkyrie Profile (USA) (Single Disc) [Undub].bin
 | `tools/apply_patches.sh` | applies the release patches |
 | `tools/subtitle_overlay.py` | recompiles `overlay.bin` and `fmvsub.bin` (`--check` compares them with the sources) |
 | `tests/` | unit tests |
-| `patches/` | the release patches |
+| `patches/SHA1SUMS` | checksums of the release patches (the patches are attached to the GitHub release) |
 
 The single-disc builder also accepts the plain US discs (`python3 src/vpsingle/builder.py <disc 1.bin> <disc 2.bin>`).
 More detail: [DESIGN.md](DESIGN.md), [TECHNICAL.md](TECHNICAL.md).

@@ -8,7 +8,7 @@
 | `src/vpsingle/` | single-disc builder (plain scripts, run as `python3 src/vpsingle/builder.py`) |
 | `tools/` | patch generation, patch application, subtitle routine compiler |
 | `tests/` | `unittest` tests; `test_single_*.py` cover `src/vpsingle` |
-| `patches/` | release patches and `SHA1SUMS` |
+| `patches/` | `SHA1SUMS` of the release patches; the `.xdelta` files are release assets (git-ignored here) |
 | `docs/images/` | README screenshots |
 | `roms/`, `build/` | your disc images and generated output (git-ignored) |
 

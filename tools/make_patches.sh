@@ -6,7 +6,8 @@
 #   2. vpsingle_undub.xdelta                        source: undub disc 1 + undub disc 2 joined
 #
 # usage (from the repo root): tools/make_patches.sh [--update]
-#   --update   copy the new patches into patches/ and rewrite patches/SHA1SUMS (after a source change)
+#   --update   copy the new patches into patches/ (git-ignored, for upload to a release) and rewrite
+#              patches/SHA1SUMS (after a source change)
 #
 # Inputs: roms/us/... and roms/japan/... (see README "Generating the patches").
 # Outputs: build/out/ (images, patches, build manifests). About 8 minutes, 4 GB of disk space.
