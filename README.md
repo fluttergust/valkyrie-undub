@@ -2,6 +2,7 @@
 
 English text with the original Japanese voices for the US PlayStation release of *Valkyrie Profile*
 (SLUS-01156 / SLUS-01179), plus an optional conversion of the two discs into **one disc** with no disc swap.
+The single-disc conversion is also available for the original US discs, without the undub.
 
 The release is a set of [xdelta3](https://github.com/jmacd/xdelta) patches applied to your own disc images.
 The patches are attached to the GitHub release. This repository holds the source that generates them and no
@@ -26,7 +27,7 @@ game data.
 | 4 | English subtitles for the Spiritual Concentration visions | Undub |
 | 5 | English subtitles for the ending FMV | Undub |
 | 6 | Mirrored dialogue portrait seam fixed | Undub |
-| 7 | Both discs on one disc, no disc swap | Single disc |
+| 7 | Both discs on one disc, no disc swap | Single disc (undub or original US) |
 
 ### 1. Japanese voices
 
@@ -82,6 +83,8 @@ game data.
 
 - Most of disc 2 repeats disc 1. The single disc is disc 1 plus the 394 files only disc 2 has, under one
   file table. It is 342,269 sectors (76.06 min) and fits an 80-minute CD-R.
+- There are two single-disc patches: one for the undub discs and one for the original US discs (English
+  voices, 336,718 sectors, 74.83 min). The US one changes nothing but the disc layout and the disc swap.
 - At the end of Chapter 4 the game goes straight on to Chapter 5. The "Please insert DISC 2" screen is not
   shown and nothing has to be swapped.
 - Saves from the two-disc version load on the single disc, and saves made on it load on the two discs.
@@ -106,16 +109,17 @@ with exactly these checksums.
 | Valkyrie Profile (Japan) (Disc 2).bin | 733675824 | `9140b9db` | `af311d15269af3d9c3d19bda7ca63e25` | `b992244720af08b97e37c1fba8dc6e86790c7fbc` |
 
 The Japanese discs are needed because the patches take the voices from them and do not contain them.
+The US single-disc patch alone needs only the two US discs.
 
 ### Tools
 
 - xdelta3, command line (tested: 3.2.2). The patches use LZMA secondary compression; a GUI patcher whose
   xdelta3 lacks LZMA cannot read them.
-- About 4.5 GB of free disk space while patching.
+- About 5 GB of free disk space while patching.
 
 ## Applying the patches
 
-Download the three `.xdelta` files from the [Releases page](../../releases). Their checksums are in
+Download the `.xdelta` files from the [Releases page](../../releases). Their checksums are in
 [`patches/SHA1SUMS`](patches/SHA1SUMS).
 
 | Patch | Source | Result |
@@ -123,8 +127,11 @@ Download the three `.xdelta` files from the [Releases page](../../releases). The
 | `vpundub_disc1.xdelta` | US disc 1 + Japan disc 1, joined | Undub disc 1 |
 | `vpundub_disc2.xdelta` | US disc 2 + Japan disc 2, joined | Undub disc 2 |
 | `vpsingle_undub.xdelta` | Undub disc 1 + undub disc 2, joined | Undub single disc |
+| `vpsingle_us.xdelta` | US disc 1 + US disc 2, joined | US single disc (English voices) |
 
 xdelta3 takes one source file, so each patch needs two images joined into one file, in the order shown.
+For the undub, follow steps 1 to 3. For the US single disc alone, only the two US discs are needed: go to
+[US single disc](#us-single-disc-without-the-undub).
 
 ### Step 1: undub (discs 1 and 2)
 
@@ -166,6 +173,24 @@ copy /b "Valkyrie Profile (USA) (Disc 1) [Undub].bin" + "Valkyrie Profile (USA) 
 xdelta3 -d -s source3.bin vpsingle_undub.xdelta "Valkyrie Profile (USA) (Single Disc) [Undub].bin"
 ```
 
+### US single disc (without the undub)
+
+This patch is separate from steps 1 and 2 and applies to the original US discs. It needs no Japanese discs.
+
+Linux / macOS:
+
+```sh
+cat "Valkyrie Profile (USA) (Disc 1).bin" "Valkyrie Profile (USA) (Disc 2).bin" > source4.bin
+xdelta3 -d -s source4.bin vpsingle_us.xdelta "Valkyrie Profile (USA) (Single Disc).bin"
+```
+
+Windows (Command Prompt):
+
+```bat
+copy /b "Valkyrie Profile (USA) (Disc 1).bin" + "Valkyrie Profile (USA) (Disc 2).bin" source4.bin
+xdelta3 -d -s source4.bin vpsingle_us.xdelta "Valkyrie Profile (USA) (Single Disc).bin"
+```
+
 ### Step 3: check the results and add a `.cue`
 
 | Output | Size (bytes) | CRC32 | MD5 | SHA-1 |
@@ -173,6 +198,7 @@ xdelta3 -d -s source3.bin vpsingle_undub.xdelta "Valkyrie Profile (USA) (Single 
 | Valkyrie Profile (USA) (Disc 1) [Undub].bin | 730448880 | `c755581a` | `c2744cb02d0748d5c8c8fcf20a15d817` | `fb2874c3f0c6a3aec7b930a19ece7f7c7be9617f` |
 | Valkyrie Profile (USA) (Disc 2) [Undub].bin | 747352704 | `2fbfe813` | `09a3aab639d87227eba67fb2c220d4e3` | `0ac85d3fd1427ec26c6cfd6c6174fa48c1f1bec1` |
 | Valkyrie Profile (USA) (Single Disc) [Undub].bin | 805016688 | `31335181` | `03ee179d5acbf8633f20ae8edb7146ba` | `31150eccb690dd980c76efc84c639f4fef7cd78b` |
+| Valkyrie Profile (USA) (Single Disc).bin | 791960736 | `73b76691` | `13b34906e120fab2395c00c9347387dc` | `da54b9839116ee6bc4bf610231a2785ff1e4c12d` |
 
 Each image needs a `.cue` file next to it with the image's file name in it, e.g.
 `Valkyrie Profile (USA) (Single Disc) [Undub].cue`:
@@ -205,7 +231,7 @@ The `source*.bin` files can be deleted afterwards.
 | numpy | 2.5 | undub builder |
 | xdelta3 | 3.2.2 | writing and checking the patches |
 | bash, coreutils (`cat`, `sha1sum`, `stat`) | | `tools/*.sh` |
-| Free disk space | about 4 GB | `build/` |
+| Free disk space | about 5 GB | `build/` |
 | clang, ld.lld, llvm-objcopy, llvm-nm, llvm-objdump with the mipsel target | LLVM 23 | optional: recompiling the subtitle routines |
 
 A different xdelta3 version can write patches with other bytes. They still apply, but will not match
@@ -222,13 +248,13 @@ A different xdelta3 version can write patches with other bytes. They still apply
    roms/japan/Valkyrie Profile (Japan) (Disc 2)/Valkyrie Profile (Japan) (Disc 2).bin + .cue
    ```
 
-2. Run from the repository root (about 8 minutes):
+2. Run from the repository root (about 9 minutes):
 
    ```sh
    tools/make_patches.sh
    ```
 
-   It writes the three images and the three patches to `build/out/` and ends with
+   It writes the four images and the four patches to `build/out/` and ends with
    `OK: the generated patches match patches/SHA1SUMS`. The build is deterministic.
    After a source change, `tools/make_patches.sh --update` copies the new patches into `patches/` (git-ignored,
    for upload to a release) and rewrites `patches/SHA1SUMS`.
@@ -248,6 +274,15 @@ python3 src/vpsingle/builder.py \
 # vpsingle_undub.xdelta (decodes it again to check)
 tools/make_xdelta.sh "build/out/Valkyrie Profile (USA) (Single Disc) [Undub].bin" build/out/vpsingle_undub.xdelta \
     "build/out/Valkyrie Profile (USA) (Disc 1) [Undub].bin" "build/out/Valkyrie Profile (USA) (Disc 2) [Undub].bin"
+
+# US single disc and vpsingle_us.xdelta: the same two commands with the original US discs
+python3 src/vpsingle/builder.py \
+    "roms/us/Valkyrie Profile (USA) (Disc 1)/Valkyrie Profile (USA) (Disc 1).bin" \
+    "roms/us/Valkyrie Profile (USA) (Disc 2)/Valkyrie Profile (USA) (Disc 2).bin" \
+    -o "build/out/Valkyrie Profile (USA) (Single Disc).bin"
+tools/make_xdelta.sh "build/out/Valkyrie Profile (USA) (Single Disc).bin" build/out/vpsingle_us.xdelta \
+    "roms/us/Valkyrie Profile (USA) (Disc 1)/Valkyrie Profile (USA) (Disc 1).bin" \
+    "roms/us/Valkyrie Profile (USA) (Disc 2)/Valkyrie Profile (USA) (Disc 2).bin"
 ```
 
 ### Source layout
@@ -265,7 +300,6 @@ tools/make_xdelta.sh "build/out/Valkyrie Profile (USA) (Single Disc) [Undub].bin
 | `tests/` | unit tests |
 | `patches/SHA1SUMS` | checksums of the release patches (the patches are attached to the GitHub release) |
 
-The single-disc builder also accepts the plain US discs (`python3 src/vpsingle/builder.py <disc 1.bin> <disc 2.bin>`).
 More detail: [DESIGN.md](DESIGN.md), [TECHNICAL.md](TECHNICAL.md).
 
 ## Testing
@@ -282,7 +316,7 @@ In-game checks done on this build:
 | Check | Emulator | Result |
 |---|---|---|
 | Undub, full game replay from input movies: Hard 100% with A ending and Seraphic Gate (376 segments), B and C endings (99), prologue (24) | BizHawk 2.11.1 | no hang or freeze |
-| Single disc layout, full game replay (376 segments; run on the US-voice single disc, same layout and patches) | BizHawk 2.11.1 | no segment worse than on the two discs |
+| US single disc, full game replay (376 segments) | BizHawk 2.11.1 | no segment worse than on the two discs |
 | Single disc, Chapter 4 to 5 from a memory card | BizHawk, Beetle PSX, SwanStation, DuckStation | pass |
 | Single disc, all 18 visions and the ending FMV show subtitles | BizHawk 2.11.1 | pass |
 | Save made on the single disc continues on original disc 2 | BizHawk 2.11.1 | pass |

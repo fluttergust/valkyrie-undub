@@ -18,6 +18,8 @@
 US disc N + JP disc N ──vpundub──> undub disc N ──┐           (vpundub_discN.xdelta)
                                                   ├─vpsingle─> undub single disc   (vpsingle_undub.xdelta)
 US disc M + JP disc M ──vpundub──> undub disc M ──┘
+
+US disc 1 + US disc 2 ─────────────────vpsingle─> US single disc      (vpsingle_us.xdelta)
 ```
 
 Each patch uses two images joined into one xdelta3 source, so data taken from either image is a copy

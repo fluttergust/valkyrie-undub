@@ -11,6 +11,7 @@
 | Undub disc 1 | 310,565 | `fb2874c3f0c6a3aec7b930a19ece7f7c7be9617f` |
 | Undub disc 2 | 317,752 | `0ac85d3fd1427ec26c6cfd6c6174fa48c1f1bec1` |
 | Undub single disc | 342,269 | `31150eccb690dd980c76efc84c639f4fef7cd78b` |
+| US single disc | 336,718 | `da54b9839116ee6bc4bf610231a2785ff1e4c12d` |
 
 All are single-track MODE2/2352 images.
 
@@ -21,6 +22,7 @@ All are single-track MODE2/2352 images.
 | `vpundub_disc1.xdelta` | 491,608 | `fa031ab4e8e8e89ae958df229115318ec2963b06` | US 1 + JP 1 |
 | `vpundub_disc2.xdelta` | 504,016 | `044f3442096e40e01599a2f2e1ecb801d83ee02b` | US 2 + JP 2 |
 | `vpsingle_undub.xdelta` | 336,662 | `9a620649eae18f35a1551907376e55f8741e0f49` | `72d8528700697a1591f3eebb8177dbea53bb85c6` |
+| `vpsingle_us.xdelta` | 328,588 | `984cc38288ff136256e317201215016e2f795f26` | `2e92ed8f77c198c6769ed3b2175f90f83185e740` |
 
 - Encoder options, undub: `xdelta3 -e -9 -A -B <joined size>` (LZMA secondary compression by default).
 - Encoder options, single disc: `xdelta3 -e -9 -S djw -A -B 1610612736`.
